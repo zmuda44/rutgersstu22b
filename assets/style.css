@@ -2,5 +2,51 @@ header {
     background-color: green;
     color: white;
     text-emphasis: none;
-    list-style-type: none;
-}
+    text-align: right;
+    /* how would make the bullets go with it only using these properties? */
+    
+    }
+
+    header li {
+        /* list-style-type: none; 
+        and why does the bullet go away with inline and inline-block?  */
+        display: inline-block;
+    }
+
+    section {
+        text-align: center;
+    }
+
+    .bottom {
+        background-color: bisque;
+        padding: 20px 0;
+    }
+
+    .contact-box {
+        width: 400px;
+        /* do these labels create a naural margin? */
+        margin: 0 auto;
+        border: 5px solid red;
+        border-radius: 30px;
+        padding: 10px 0;
+    }
+
+    .name {
+        /* display: inline; Do i need to put these in a div to make them block?*/
+        margin: 5px 0;
+    }
+
+    .email {
+        margin-bottom: 5px;
+    }
+
+    footer {
+        background-color: green;
+        text-align: center;
+       
+    }
+
+    footer h3 {
+        padding: 0;
+        margin: 0;
+    }
